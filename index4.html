@@ -20,7 +20,23 @@ text-align: center;
             border-radius: 10px;
             background-color: aqua;
         }
+        form{
+            position: absolute;
+            top:250px;
+            left:390px;
+            width: 50%;
+        }
+        video{
+            position: fixed;
+        }
+        .main{
+            position: absolute;
+            top:550px;
+            left:680px;
+            width:33%;
+        }
     </style>
+    <video controls autoplay muted loop><source src="./assests/Videos/Instagram Logo Animation (Motion Graphics).mp4"></video>
     <form>
      <center>   <label for="Email or mobile">Enter Email or Mobile:</label><br><br>
         <input type="txt" id="Email or mobile" required placeholder="Mobile or email" pattern="[0-9]{10}[a-z](?=*/)[A-Z]"><br>
@@ -31,5 +47,8 @@ text-align: center;
            <button type="submit" formaction="./index6.html">Confirm password</button>
 
     </form></center>
+    <form class="main">
+        <button formaction="index.html">Go to login page</button>
+    </form>
 </body>
 </html>

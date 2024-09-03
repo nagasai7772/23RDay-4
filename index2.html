@@ -38,11 +38,18 @@ input{
 background-color: dodgerblue;
         }
 
-
+video{
+    position:static;
+}
+.navi{
+    position:absolute;
+    top:530px;
+    width:13%;
+}
     </style>
     <center>
         <div class="text">
-            <img src="../assests/images/insta.png" height="560" width="500" >
+        <video controls muted autoplay loop > <source src="./assests/Videos/Instagram 3D Logo Animation Tutorial in After Effects _ No Plugins _ 3D Intro Tutorial 2023.mp4"></video>
             <div class="form">
      <form>
         <label for="fname">Enter Your Name:</label><br><br>
@@ -55,10 +62,15 @@ background-color: dodgerblue;
         <label for="num">Enter Mobile number:</label><br><br>
         <input type="tel" id="num" placeholder="##########" pattern="[0-9]{10}" required>
         <br><br>
-        <button formaction="./index5.html"> Login</button>
+        <button formaction="./index5.html"> Create account</button>
+        <br><br>
+        
      
     </center>
     </form></div></div>
+    <form class="navi">
+        <button formaction="index.html"> Go To login page</button>
+    </form>
     
 </body>
 </html>

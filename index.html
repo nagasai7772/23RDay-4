@@ -8,9 +8,13 @@
 <body>
     <style>
         .log{
-            position:relative;
+            position:absolute;
             text-align: center;
             color:black;
+             top:250px;
+             left:450px;
+             width: 446px;
+             text-align: center;
         }
         .sign{
             position:absolute;
@@ -35,21 +39,24 @@
             color:red;
             font-size: 18px;
         }
+        video{
+            position: fixed;
+        }
     </style>
-
-   <img src="../assests/images/Instagram2.jpg" height="300" width="1550">
+<video controls autoplay muted loop> <source src="./assests/Videos/Instagram Logo Rain (online-video-cutter.com) (1).mp4"></video>
+   <!-- <img src="./assests/images/Instagram2.jpg" height="300" width="1550"> -->
    
     <form>
         <div class="log">
-            <img src="../assests/images/baby.webp" height="560" width="500">
+            <!-- <img src="./assests/images/baby.webp" height="560" width="500"> -->
             <div class="sign">
-        <center>
-        <label for="name">Enter Email or Mobile number</label><br><br>
+        
+        <label for="name">&emsp;&emsp;&emsp;&emsp;Enter Email or Mobile number</label><br><br>
         <input type="email" id="name" placeholder="Mobile number or Email,Username" required pattern=[0-9][a-z](?=*/)[A-Z]><br><br>
         <label for="pass">Enter password:</label><br><br>
         <input type="password" id="pass" required placeholder="Enter password" ><br><br>
-        <button formaction="./index3.html">Login</button>
-     <center>   <h3>or</h3>
+        <button formaction="./index3.html">&emsp;&emsp;Login</button>
+       <h3>or</h3>
         <a href="./index4.html">Forgot password ?</a>
         <h4>Dont have account ?<a href="./index2.html"> Signup</a></h4></center>
     </center>
